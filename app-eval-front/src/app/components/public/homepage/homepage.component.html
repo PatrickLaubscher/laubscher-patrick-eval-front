@@ -1,13 +1,38 @@
 
 <!-- Hero -->
 <section
-class="w-11/12 mx-auto my-10 flex justify-center items-center bg-[url(/img/close-up-virtual-classroom.webp)]"
+class="w-11/12 mx-auto my-10 flex justify-center items-center bg-[url(/img/close-up-virtual-classroom.webp)] bg-center bg-cover"
 >
     <h2
-    class="w-4/5 p-30 text-4xl uppercase text-center font-bold">
+    class="w-4/5 p-10 md:p-40 text-3xl md:text-5xl text-white uppercase text-center font-bold">
         Travaillez<br>intelligemment<br>partout, collaborez
     </h2>
 
+</section>
+
+
+<!-- Fonctionnement Worksphere -->
+
+
+<section
+class="w-9/12 mx-auto my-30"
+>
+    <h2
+    class="text-4xl font-bold text-titleh2 my-8">
+        Pourquoi choisir Worksphere ?
+    </h2>
+
+    <!-- Card list Description -->
+    <div
+    class="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+    >
+        <app-card-description [background]="cardBg1" [cardTitle]="cardTitle1" [cardText]="cardText1"></app-card-description>
+        <app-card-description [background]="cardBg2" [cardTitle]="cardTitle2" [cardText]="cardText2"></app-card-description>
+        <app-card-description [background]="cardBg3" [cardTitle]="cardTitle3" [cardText]="cardText3"></app-card-description>
+        <app-card-description [background]="cardBg4" [cardTitle]="cardTitle4" [cardText]="cardText4"></app-card-description>
+
+
+    </div>
 
 
 </section>
