@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { CardDescriptionComponent } from "../../../card-description/card-description.component";
-import { CardToolsComponent } from "../../../card-tools/card-tools.component";
+import { CardDescriptionComponent } from "../../card-description/card-description.component";
+import { CardToolsComponent } from "../../card-tools/card-tools.component";
 
 @Component({
   selector: 'app-homepage',
