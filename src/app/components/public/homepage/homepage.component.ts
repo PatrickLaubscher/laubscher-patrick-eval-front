@@ -3,11 +3,10 @@ import { CardDescriptionComponent } from "../../card-description/card-descriptio
 import { CardToolsComponent } from "../../card-tools/card-tools.component";
 
 @Component({
-  selector: 'app-homepage',
-  standalone: true,
-  imports: [CardDescriptionComponent, CardToolsComponent],
-  templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.css'
+    selector: 'app-homepage',
+    imports: [CardDescriptionComponent, CardToolsComponent],
+    templateUrl: './homepage.component.html',
+    styleUrl: './homepage.component.css'
 })
 export class HomepageComponent {
 

@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-card-tarif',
-  standalone: true,
-  imports: [],
-  templateUrl: './card-tarif.component.html',
-  styleUrl: './card-tarif.component.css'
+    selector: 'app-card-tarif',
+    imports: [],
+    templateUrl: './card-tarif.component.html',
+    styleUrl: './card-tarif.component.css'
 })
 export class CardTarifComponent {
 

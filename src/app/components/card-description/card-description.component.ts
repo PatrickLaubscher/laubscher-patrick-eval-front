@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-card-description',
-  standalone: true,
-  imports: [],
-  templateUrl: './card-description.component.html',
-  styleUrl: './card-description.component.css'
+    selector: 'app-card-description',
+    imports: [],
+    templateUrl: './card-description.component.html',
+    styleUrl: './card-description.component.css'
 })
 export class CardDescriptionComponent {
   @Input() cardTitle:string = '';

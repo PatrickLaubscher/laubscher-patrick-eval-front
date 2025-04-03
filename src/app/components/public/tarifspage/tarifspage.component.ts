@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 import { CardTarifComponent } from "../../card-tarif/card-tarif.component";
 
 @Component({
-  selector: 'app-tarifspage',
-  standalone: true,
-  imports: [CardTarifComponent],
-  templateUrl: './tarifspage.component.html',
-  styleUrl: './tarifspage.component.css'
+    selector: 'app-tarifspage',
+    imports: [CardTarifComponent],
+    templateUrl: './tarifspage.component.html',
+    styleUrl: './tarifspage.component.css'
 })
 export class TarifspageComponent {
 
