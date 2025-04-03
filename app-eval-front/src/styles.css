@@ -9,12 +9,12 @@
 @theme {
     --color-principale: theme(colors.teal.600);
     --color-active: theme(colors.teal.800);
-    --color-text: theme(colors.gray.500);
+    --color-colortext: theme(colors.gray.500);
     --color-cardTitle: theme(colors.gray.800);
     --color-titleh2: theme(colors.gray.900);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Poppins", sans-serif;
 }
 

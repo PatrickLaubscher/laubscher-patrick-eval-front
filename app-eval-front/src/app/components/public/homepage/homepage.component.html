@@ -34,5 +34,50 @@ class="w-9/12 mx-auto my-30"
 
     </div>
 
+</section>
+
+
+<!-- Section sur les outils -->
+
+<section
+class="bg-gray-100"
+>
+    <div
+    class="w-9/12 mx-auto py-30 grid grid-cols-3 gap-6"
+    >   
+
+        <div
+        class="h-60 py-4"
+        >
+            <h2
+            class="text-4xl font-bold text-titleh2 mb-4"
+            >
+                Outils essentiels
+            </h2>
+
+            <p
+            class="text-colortext"
+            >
+                Des fonctionnalités conçues pour
+                améliorer votre efficacité et simplifier
+                votre quotidien. Profitez d’un espace de
+                travail optimisé pour mieux organiser
+                vos tâches et collaborer sans effort.
+
+            </p>
+
+        </div>
+
+
+        <app-card-tools [cardNb]="cardNb1" [cardTitle]="cardOutilTitle1" [cardText]="cardOutilText1" ></app-card-tools>
+        <app-card-tools [cardNb]="cardNb2" [cardTitle]="cardOutilTitle2" [cardText]="cardOutilText2" ></app-card-tools>
+        <app-card-tools [cardNb]="cardNb3" [cardTitle]="cardOutilTitle3" [cardText]="cardOutilText3" ></app-card-tools>
+        <app-card-tools [cardNb]="cardNb4" [cardTitle]="cardOutilTitle4" [cardText]="cardOutilText4" ></app-card-tools>
+        <app-card-tools [cardNb]="cardNb5" [cardTitle]="cardOutilTitle5" [cardText]="cardOutilText5" ></app-card-tools>
+
+
+    </div>
+
+
 
 </section>
